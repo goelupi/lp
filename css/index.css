@@ -46,5 +46,10 @@ background-color: rgba(237,155,2,0.8);
   font-size: clamp(12px,4vw,25px);
 }
 
+@media screen and (max-width: 768px) {
+  #fv{
+    background-position: center;
+  }
+}
 
 
