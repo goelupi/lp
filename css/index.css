@@ -39,18 +39,44 @@ section{
   background-size: 100% calc(2vw + 90px);
   }
   }
-   
+
+  .cta-tuiju{
+    position: fixed;
+    right: 20px;
+    top: 68%;
+    left: auto;
+    z-index: 10;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .cta-tuiju span{
+    font-size: 2rem;
+  
+  }
+
+
+.cta-tuiju a{
+display: inline-block;
+  background-color: green;
+  color: white;
+padding: 0 30px;
+  border: 5px solid black;
+  border-radius: 50px;
+  max-height: 100px;
+
+}
 
 
 #fv{
   background-image: url(../img/fv.jpg);
-  margin-top: 100px;
   width: 1600px;
   max-width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 0;
   
 }
 
@@ -125,6 +151,7 @@ h3{
 
 .onayami-info{
   display: flex;
+  justify-content: center;
 }
 
 .nayamudansei{
@@ -134,27 +161,28 @@ h3{
 }
 
 .light-bulb{
-  width: 30%;
-  height: auto;
+  width: 30vw;
   background-image: url(../img/豆電球のアイコン素材\ その2\ .png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
+ position: relative;
+ padding-top: 30vw;
 }
 
 .light-bulb p{
-  display: block;
-  text-align: center;
-  padding-right: 30px;
+  width: 100%;
+text-align: center;
   text-shadow: 2px 2px #ffffff;
   font-weight: bold;
   font-size: 3vw;
+  position: absolute;
+  top: 40%;
+
 }
 
 .omakase-info{
   display: flex;
   justify-content: space-between;
-  margin: 50px;
 }
 .rigth{
   width: 100%;
@@ -187,6 +215,12 @@ h3{
 .plan-box p{
   width: 100%;
   text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.atend{
+  text-align: right;
 }
 .price{
   display: block;
@@ -211,6 +245,110 @@ h3{
 
 .price-info :nth-child(2){
   font-size: 5rem;
+}
+
+.forexample{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin: 50px 5%;
+}
+
+.forexample-info{
+  background-color: #fbd8c2;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.forexample h4{
+  text-decoration: underline;
+  padding: 0 5px;
+}
+.forexample-info p{
+  font-weight: bold;
+}
+.motto{
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+.motto p{
+  writing-mode: vertical-rl;
+  font-size: 2rem;
+  text-align: end;
+}
+.motto span{
+  background-color: red;
+  color: white;
+  font-size: 1.2em;
+}
+
+.tuika{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+.tuika img{
+  width: 100px;
+  height: auto;
+}
+.tuika p{
+  background-color: red;
+  color: white;
+}
+.tuika span{
+  font-size: 2rem;
+}
+
+.jirei{
+  text-align: center;
+}
+
+.jirei h3{
+margin-bottom: 50px;
+}
+
+.jirei img{
+  width: 90%;
+}
+.nagare h4{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
+}
+
+.nagare p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.nagare ol{
+  list-style: circle;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nouki{
+  border: 3px solid black;
+  border-radius: 12px;
+  margin: 50px auto;
+  width: 80%;
+
+}
+
+.nouki h4{
+  width: 100%;
+  background-color: white;
+  margin-top: 8px;
+}
+.nouki p{
+  width: 100%;
 }
 
 
